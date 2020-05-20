@@ -25,8 +25,8 @@ end
 
 def can_be_created_in_a_block(hash)
   Movie.create do |key, value|
-    m.title = "Home Alone"
-    m.release_date = 1990
+    key.title = "Home Alone"
+    key.release_date = 1990
   end
 end
 
